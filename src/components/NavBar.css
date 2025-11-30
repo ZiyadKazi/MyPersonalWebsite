@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
+    background: #18325c;
     width: 100%;
     height: 20px;
     box-sizing: border-box;
@@ -13,6 +13,16 @@
     display: flex;
     gap: 50px;
     list-style-type: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-link:hover {
+    /* text-decoration: underline; */
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
 }
 
 
@@ -32,12 +42,12 @@
 
 .logobeg,
 .logoend {
-    color: var(--primary-blue);
+    color: white;
     transition: color 0.3s ease;
 }
 
 .logomid {
-    color: var(--primary-lavender);
+    color: #f03a52;
     font-weight: 700;
     transition: color 0.3s ease;
 }
