@@ -12,8 +12,14 @@ const NavBar = () => {
     const [open, setOpen] = useState(false)
 
     const toggle = () => {
-        setOpen(!open)
+        setOpen(prev => {
+            console.log(!prev)
+            return !prev
+        } )
     }
+
+
+    
 
     return (
         <div className="nav-bar">
