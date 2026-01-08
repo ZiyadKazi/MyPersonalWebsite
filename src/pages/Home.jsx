@@ -17,16 +17,20 @@ const Home = () => {
 
                 <div className="hero-text">
                     <h2 className = "greeting">Hey! 👋</h2>
+                    
                     <h1 className = "name">I'm Ziyad Kazi 👨🏾‍💻</h1>
+
                     <p className="bio">{"I'm studying CS and Math at Rice University. I like creating fun and impactful projects that aim to solve real world problems. In my free time, you can find me on the tennis court, exploring coffee shops, watching horror movies, and shopping in Turkey :)"}</p>
+
+                    <div className = "my-buttons">
+                        <button className = "my-work-btn">What I've Worked On</button>
+                        <button className = "contact-me-btn">Reach Out!</button>
+                    </div>
                 </div>
                 
             </div>
 
-            <div className = "my-buttons">
-                    <button className = "my-work-btn">What I've Worked On</button>
-                    <button className = "contact-me-btn">Reach Out!</button>
-            </div>
+            
 
         </div>
     )

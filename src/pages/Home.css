@@ -69,12 +69,39 @@
     color: rgba(255, 255, 255, 0.85);
 }
 
+/* 
+.my-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: left;
+    flex-wrap: wrap;
+} */
 
 .my-buttons {
     display: flex;
     gap: 1rem;
-    justify-content: center;
+    justify-content: left;
     flex-wrap: wrap;
+    gap: 30px;
+}
+
+.my-buttons button {
+    padding: 0.875rem 2rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: inherit;
+    background: #f03a52;
+    color: #18325c;
+    
+}
+
+.my-buttons button:hover {
+    background: #f8f8f8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(255, 255, 255, 0.3);
 }
 
 
